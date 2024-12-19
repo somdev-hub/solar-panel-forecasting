@@ -49,3 +49,21 @@ curl -X 'POST' \
   "wind": 5.0,
   "humidity": 60.0
 }'
+```
+
+### Setup Node.js Server
+
+```sh
+cd solar-panel-forecasting/node server
+
+npm install
+
+node server.js
+```
+
+### Get 15 days 
+
+```sh
+curl -X 'GET' \
+  'http://localhost:3000/forecast
+```
